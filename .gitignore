@@ -8,5 +8,7 @@
 !/inc/*
 
 !/test
+!/test/*
+
 !/CMakeLists.txt
 
