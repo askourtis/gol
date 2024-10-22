@@ -1,0 +1,12 @@
+*
+
+!/.gitignore
+
+!/src
+!/src/*
+!/inc
+!/inc/*
+
+!/test
+!/CMakeLists.txt
+
