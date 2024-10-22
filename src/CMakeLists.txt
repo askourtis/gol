@@ -12,7 +12,7 @@ file(GLOB SOURCES "${CMAKE_CURRENT_LIST_DIR}/*.c"
                   "${CMAKE_CURRENT_LIST_DIR}/*.cc"
                   "${CMAKE_CURRENT_LIST_DIR}/*.cu"
 )
-message("${PROJECT_NAME}")
+
 add_library(
   "${PROJECT_NAME}"
   "${SOURCES}"
