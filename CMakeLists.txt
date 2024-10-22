@@ -5,13 +5,8 @@ project(GameOfLifeProject)
 
 
 set(SRC_DIR "${CMAKE_CURRENT_LIST_DIR}/src")
+set(TEST_DIR "${CMAKE_CURRENT_LIST_DIR}/test")
 
 add_subdirectory(${SRC_DIR})
-
-add_executable(
-  testgol
-  test/test.c
-)
-
-target_link_libraries(testgol PRIVATE libgol)
+add_subdirectory(${TEST_DIR})
 
