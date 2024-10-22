@@ -18,5 +18,5 @@ add_library(
   "${SOURCES}"
 )
 
-target_include_directories("${PROJECT_NAME}" INTERFACE "${CMAKE_CURRENT_LIST_DIR}/../inc")
+target_include_directories("${PROJECT_NAME}" PUBLIC "${CMAKE_CURRENT_LIST_DIR}/../inc")
 
