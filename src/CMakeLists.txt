@@ -19,5 +19,5 @@ add_library(
 )
 
 target_include_directories("${PROJECT_NAME}" PUBLIC "${CMAKE_CURRENT_LIST_DIR}/../inc")
-target_compile_features("${PROJECT_NAME}" PRIVATE cxx_std_11)
+target_compile_features("${PROJECT_NAME}" PRIVATE cxx_std_14)
 

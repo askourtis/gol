@@ -188,13 +188,3 @@ namespace GOL {
   }
 
 }
-
-
-int main() {
-  GOL::Cell board[25] = {
-    GOL::Cell::DEAD
-  };
-  GOL::gol<GOL::SpaceFillingCurve::COL_MAJOR, GOL::WrapBehaviour::GENERIC, GOL::WrapBehaviour::GENERIC> (board, 5, 5, 5);
-}
-
-

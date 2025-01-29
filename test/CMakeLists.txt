@@ -18,8 +18,8 @@ add_executable(
   "${SOURCES}"
 )
 
-
+find_package(GTest)
 #add_subdirectory("${CMAKE_CURRENT_LIST_DIR}/../src")
 
-target_link_libraries("${PROJECT_NAME}" libgol)
-
+target_link_libraries("${PROJECT_NAME}" libgol gtest gtest_main)
+target_compile_features("${PROJECT_NAME}" PRIVATE cxx_std_14)
